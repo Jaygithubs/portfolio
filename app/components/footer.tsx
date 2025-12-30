@@ -5,7 +5,9 @@ const footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className='bg-white/2 backdrop-blur-[2px] border-t border-white/30' id="footer">
+    <div className='bg-white/2 backdrop-blur-[2px] border-t border-white/30 z-10' id="footer">
+
+      {/* <div className="bg-[url(/favicon.png)] h-screen w-full absolute bottom-[10%] bg-no-repeat z-10"></div> */}
       
       <div className="container mx-auto border-l border-r border-white/30">
 

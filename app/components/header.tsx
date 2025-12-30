@@ -10,7 +10,7 @@ const header = () => {
   return (
     <nav className="backdrop-blur-[2px] sticky top-0 p-5 z-10 bg-white/10 w-full" >
         <div className="flex justify-between items-center">
-            <div className="text-3xl font-sans">Jay<span className="italic">Sharma.</span></div>
+            <div className="text-3xl font-sans">Jay<span className="">Sharma.</span></div>
             <div className="space-x-5 hidden md:block">
                 <Link className="hover:text-white/50" href="#home">Home</Link>
                 <Link className="hover:text-white/50" href="#aboutme">About Me</Link>
