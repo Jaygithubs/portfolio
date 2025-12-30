@@ -33,7 +33,7 @@ const Faq = () => {
   }
 
   return (
-    <div className="max-w-4xl mx-auto py-20 scroll-mt-24" id="faq">
+    <div className="max-w-4xl mx-auto py-20 px-5 scroll-mt-24" id="faq">
       <h2 className="text-center text-[clamp(2.5rem,5vw,6rem)] pb-20">
         Frequently Asked <span className="italic">Questions</span>
       </h2>

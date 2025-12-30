@@ -25,7 +25,7 @@ const Mywork = () => {
       <div className="text-center text-[clamp(2.5rem,5vw,6rem)] pb-20"><span className="italic">My </span>Works</div>
       <div className="container mx-auto px-5 md:px-20 space-y-10">
       <motion.div 
-      className="border-4 rounded-2xl overflow-hidden"
+      className="border-4 rounded overflow-hidden"
       variants={workCardVarient}
       initial="screenOff"
       whileInView="screenOn"
@@ -37,7 +37,7 @@ const Mywork = () => {
       </motion.div>
       
       <motion.div 
-      className="border-4 rounded-2xl overflow-hidden"
+      className="border-4 rounded overflow-hidden"
       variants={workCardVarient}
       initial="screenOff"
       whileInView="screenOn"
@@ -49,7 +49,7 @@ const Mywork = () => {
       </motion.div>
       
       <motion.div
-       className="border-4 rounded-2xl overflow-hidden"
+       className="border-4 rounded overflow-hidden"
        variants={workCardVarient}
       initial="screenOff"
       whileInView="screenOn"
@@ -61,7 +61,7 @@ const Mywork = () => {
       </motion.div>
       
       <motion.div
-       className="border-4 rounded-2xl overflow-hidden"
+       className="border-4 rounded overflow-hidden"
        variants={workCardVarient}
       initial="screenOff"
       whileInView="screenOn"

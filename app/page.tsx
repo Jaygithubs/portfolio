@@ -1,5 +1,4 @@
 import Aboutme from "./components/about-me";
-import Contactus from "./components/contact-us";
 import Mywork from "./components/mywork";
 import Footer from "./components/footer";
 import Header from "./components/header";
@@ -7,6 +6,7 @@ import Hero from "./components/hero";
 import Services from "./components/services";
 import Showoff from "./components/showoff";
 import Faq from "./components/faq";
+import Experience from "./components/experience";
 
 export default function Home() {
   return (
@@ -14,9 +14,9 @@ export default function Home() {
       <Header/>
       <Hero/>
       <Aboutme/>
+      <Experience/>
       <Services/>
       <Mywork/>
-      <Contactus/>
       <Showoff/>
       <Faq/>
       <Footer/>
