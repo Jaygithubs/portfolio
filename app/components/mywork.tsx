@@ -24,6 +24,7 @@ const Mywork = () => {
     <div className="pb-40 scroll-mt-24" id="myworks">
       <div className="text-center text-[clamp(2.5rem,5vw,6rem)] pb-20"><span className="italic">My </span>Works</div>
       <div className="container mx-auto px-5 md:px-20 space-y-10">
+
       <motion.div 
       className="border-4 rounded overflow-hidden"
       variants={workCardVarient}
@@ -33,6 +34,18 @@ const Mywork = () => {
       >
           <Link href="https://beggarscorporation.com/" target="_blank">
         <Image src="/experiences/exp-1.png" alt="website-1" width={1352} height={596} />
+      </Link>
+      </motion.div>
+      
+      <motion.div 
+      className="border-4 rounded overflow-hidden"
+      variants={workCardVarient}
+      initial="screenOff"
+      whileInView="screenOn"
+      viewport={{once:false,amount:0.5}}
+      >
+          <Link href="https://crm-for-hospitals.vercel.app/" target="_blank">
+        <Image src="/experiences/exp-6.png" alt="website-1" width={1352} height={596} />
       </Link>
       </motion.div>
       
