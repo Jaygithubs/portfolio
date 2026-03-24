@@ -109,6 +109,18 @@ const Mywork = () => {
       </Link>
       </motion.div>
       
+      <motion.div
+       className="border-4 rounded overflow-hidden"
+       variants={workCardVarient}
+      initial="screenOff"
+      whileInView="screenOn"
+      viewport={{once:false,amount:0.5}}
+       >
+        <Link href="https://resturant-website-lake-psi.vercel.app/" target="_blank">
+        <Image src="/experiences/exp-8.png" alt="website-1" width={1352} height={596} />
+      </Link>
+      </motion.div>
+      
       </div>
     </div>
   )
